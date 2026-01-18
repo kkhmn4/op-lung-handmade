@@ -1,0 +1,7 @@
+node_modules/
+
+shop/node_modules/
+
+.next/
+
+.env

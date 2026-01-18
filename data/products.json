@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "name": "Hello Kitty & Marie Crystal Tumbler",
+    "price": 65.00,
+    "image": "/images/055a846ff6284076193915.jpg",
+    "description": "Biểu tượng của sự chăm sóc bản thân với gu thẩm mỹ ngọt ngào. Ly giữ nhiệt đính đá thủ công (full-bling) với hình ảnh Hello Kitty và Mèo Marie kiêu kỳ, biến việc uống nước hàng ngày thành trải nghiệm sang trọng.",
+    "category": "Bling Tumblers"
+  },
+  {
+    "id": "2",
+    "name": "Pink Marie Cat Sparkle Tumbler",
+    "price": 65.00,
+    "image": "/images/5c6ed07aa23d14634d2c19.jpg",
+    "description": "Tác phẩm nghệ thuật di động với Mèo Marie trên nền đá hồng pastel lung linh. Độ bắt sáng cực cao, là món quà độc lạ dành cho những người yêu thích sự lấp lánh và sưu tầm đồ Limited Edition.",
+    "category": "Bling Tumblers"
+  },
+  {
+    "id": "3",
+    "name": "Girl & Cat Crystal Tumbler",
+    "price": 65.00,
+    "image": "/images/5c953eed52aae4f4bdbb11.jpg",
+    "description": "Phong cách thời trang nghệ thuật trên nền đá quý. Chiếc ly được đính kết thủ công tỉ mỉ, tạo hiệu ứng thị giác cuốn hút, khẳng định cá tính riêng biệt cho chủ nhân.",
+    "category": "Bling Tumblers"
+  },
+  {
+    "id": "4",
+    "name": "Elegant Character Tumbler",
+    "price": 65.00,
+    "image": "/images/5ef113cf6188d7d68e9914.jpg",
+    "description": "Sự kết hợp hoàn hảo giữa công năng giữ nhiệt và vẻ đẹp trang sức. Từng viên đá rhinestone được tuyển chọn và đính kết để tạo nên độ bền và vẻ đẹp vĩnh cửu.",
+    "category": "Bling Tumblers"
+  },
+  {
+    "id": "5",
+    "name": "Hello Kitty Pink Gradient Tumbler",
+    "price": 65.00,
+    "image": "/images/74d076121855ae0bf7448.jpg",
+    "description": "Hiệu ứng chuyển màu (gradient) hồng phấn tuyệt đẹp kết hợp cùng Hello Kitty. Sản phẩm handmade 100% mang lại vẻ đẹp độc bản, không đụng hàng.",
+    "category": "Bling Tumblers"
+  },
+  {
+    "id": "6",
+    "name": "Blue Sky Character Tumbler",
+    "price": 65.00,
+    "image": "/images/82dd6f350172b72cee632.jpg",
+    "description": "Mang cả bầu trời xanh mát bên mình với thiết kế đính đá tông xanh dương chủ đạo. Sáng bừng phong cách sống năng động và yêu đời.",
+    "category": "Bling Tumblers"
+  },
+  {
+    "id": "7",
+    "name": "Snow White Boba Tea Edition",
+    "price": 45.00,
+    "image": "/images/377bb394ddd36b8d32c23.jpg",
+    "description": "Bạch Tuyết uống trà sữa - Biểu tượng của sự giao thoa giữa nét cổ tích và nhịp sống Gen Z hiện đại. Chi tiết 'trân châu' được đính đá đen tinh xảo trên nền váy vàng rực rỡ.",
+    "category": "Snow White Series"
+  },
+  {
+    "id": "8",
+    "name": "Snow White Classic Sparkle",
+    "price": 45.00,
+    "image": "/images/24fbdd8db3ca05945cdb10.jpg",
+    "description": "Tái hiện hình ảnh công chúa Disney kinh điển dưới góc nhìn nghệ thuật đá quý. Tông màu đỏ, xanh và vàng hoàng gia được phối hợp thủ công tỉ mỉ đến từng chi tiết.",
+    "category": "Snow White Series"
+  },
+  {
+    "id": "9",
+    "name": "Snow White Royal Blue",
+    "price": 48.00,
+    "image": "/images/3a0a21325375e52bbc6413.jpg",
+    "description": "Sang trọng và bí ẩn với tông xanh hoàng gia. Một phụ kiện đẳng cấp dành cho những ai muốn mang phép màu cổ tích vào đời thực.",
+    "category": "Snow White Series"
+  },
+  {
+    "id": "10",
+    "name": "Snow White Modern Art",
+    "price": 48.00,
+    "image": "/images/df424ce522a294fccdb39.jpg",
+    "description": "Phong cách Kidcore thời thượng nhưng vẫn giữ nét sang chảnh. Ốp lưng được đính kín đá, bảo vệ điện thoại tuyệt đối và thu hút mọi ánh nhìn.",
+    "category": "Snow White Series"
+  },
+  {
+    "id": "11",
+    "name": "Snow White Golden Era",
+    "price": 50.00,
+    "image": "/images/fd958866e621507f09306.jpg",
+    "description": "Lấp lánh ánh vàng kim vương giả. Sự lựa chọn hoàn hảo để khẳng định phong cách 'công chúa hiện đại' đầy tự tin và kiêu hãnh.",
+    "category": "Snow White Series"
+  },
+  {
+    "id": "12",
+    "name": "White Bear Crystal 3D",
+    "price": 42.00,
+    "image": "/images/0b494fb83eff88a1d1ee23.jpg",
+    "description": "Cuteness Overload! Chú gấu trắng mini được tạo hình 3D nổi bật trên nền đá lấp lánh. Mang lại cảm giác 'chữa lành' (healing) mỗi khi ngắm nhìn.",
+    "category": "Cuteness Overload"
+  },
+  {
+    "id": "13",
+    "name": "Sparkling Capybara",
+    "price": 42.00,
+    "image": "/images/0cecb1f7c3b075ee2ca118.jpg",
+    "description": "'Bộ trưởng ngoại giao' Capybara trong phiên bản lấp lánh sang chảnh. Sự kết hợp giữa trend 'vô tri' dễ thương và kỹ thuật đính đá thủ công cao cấp.",
+    "category": "Cuteness Overload"
+  },
+  {
+    "id": "14",
+    "name": "Cute Bear Face Close-up",
+    "price": 40.00,
+    "image": "/images/214a2e855fc2e99cb0d325.jpg",
+    "description": "Gương mặt gấu được zoom cận cảnh, sử dụng các kích cỡ đá khác nhau để tạo chiều sâu và độ thần thái cho nhân vật.",
+    "category": "Cuteness Overload"
+  },
+  {
+    "id": "15",
+    "name": "Lovely Capybara Profile",
+    "price": 42.00,
+    "image": "/images/c2f59b0ff54843161a595.jpg",
+    "description": "Góc nghiêng thần thánh của Capybara được tái hiện tinh xảo. Phụ kiện không thể thiếu cho hội yêu động vật và thích sự độc đáo.",
+    "category": "Cuteness Overload"
+  },
+  {
+    "id": "16",
+    "name": "Luxury Checkered Pattern",
+    "price": 55.00,
+    "image": "/images/1c643a775530e36eba211.jpg",
+    "description": "Họa tiết caro kinh điển mang phong cách Old Money. Sự sắp xếp đá thẳng hàng tuyệt đối thể hiện trình độ tay nghề bậc thầy của nghệ nhân.",
+    "category": "Fashion & Patterns"
+  },
+  {
+    "id": "17",
+    "name": "Diamond Geometric Art",
+    "price": 55.00,
+    "image": "/images/1e1f1ce46da3dbfd82b222.jpg",
+    "description": "Thiết kế hình học kim cương sang trọng, không bao giờ lỗi mốt. Phù hợp cho môi trường công sở chuyên nghiệp cần sự tinh tế và lịch lãm.",
+    "category": "Fashion & Patterns"
+  },
+  {
+    "id": "18",
+    "name": "Burberry Style Tartan",
+    "price": 55.00,
+    "image": "/images/c30321cb508ce6d2bf9d24.jpg",
+    "description": "Họa tiết Tartan huyền thoại được tái sinh bằng đá quý. Vẻ đẹp cổ điển vượt thời gian, khẳng định đẳng cấp thời trang của người sử dụng.",
+    "category": "Fashion & Patterns"
+  },
+  {
+    "id": "19",
+    "name": "Rich Heart Green Gradient",
+    "price": 46.00,
+    "image": "/images/dd6aa8a0c6e770b929f67.jpg",
+    "description": "Thông điệp 'Rich' về tâm hồn và vật chất. Kỹ thuật gradient màu xanh lá tạo chiều sâu hút mắt, lan tỏa năng lượng thịnh vượng.",
+    "category": "Love & Rich"
+  },
+  {
+    "id": "20",
+    "name": "Rich Heart Pink Radiance",
+    "price": 46.00,
+    "image": "/images/9cb476ba04fdb2a3ebec16.jpg",
+    "description": "Trái tim hồng lan tỏa yêu thương. Chữ 'Rich' đen tương phản mạnh mẽ trên nền hồng, là tuyên ngôn cá tính của những cô gái tự tin.",
+    "category": "Love & Rich"
+  },
+  {
+    "id": "21",
+    "name": "Rich Heart Teal Edition",
+    "price": 46.00,
+    "image": "/images/b121ecc29d852bdb729421.jpg",
+    "description": "Sự pha trộn giữa xanh Teal và bạc tạo nên vẻ đẹp hiện đại, mát mắt. Món quà ý nghĩa dành tặng người yêu hoặc tự thưởng cho bản thân.",
+    "category": "Love & Rich"
+  },
+  {
+    "id": "22",
+    "name": "Spring Tulip Garden",
+    "price": 44.00,
+    "image": "/images/467fbc9ad2dd64833dcc4.jpg",
+    "description": "Mang cả vườn hoa Tulip mùa xuân lên điện thoại. Vẻ đẹp lãng mạn và thuần khiết, dành cho những tâm hồn mộng mơ yêu thiên nhiên.",
+    "category": "Nature & Fairy Tales"
+  },
+  {
+    "id": "23",
+    "name": "Flamingo Paradise",
+    "price": 44.00,
+    "image": "/images/0f84fb8089c73f9966d617.jpg",
+    "description": "Hồng hạc kiêu sa giữa rừng nhiệt đới. Bức tranh thiên nhiên rực rỡ được vẽ bằng đá, sống động và đầy sức sống.",
+    "category": "Nature & Fairy Tales"
+  },
+  {
+    "id": "24",
+    "name": "Ariel Under The Sea",
+    "price": 48.00,
+    "image": "/images/ae54bbbfcaf87ca625e920.jpg",
+    "description": "Nàng tiên cá Ariel với mái tóc đỏ rực rỡ. Ước vọng vươn tới cái đẹp và tự do được khắc họa chi tiết qua từng viên đá lấp lánh.",
+    "category": "Nature & Fairy Tales"
+  },
+  {
+    "id": "25",
+    "name": "Hello Kitty Hearts Minimal",
+    "price": 45.00,
+    "image": "/images/53eccc01be460818515712.jpg",
+    "description": "Sự kết hợp ngọt ngào giữa Hello Kitty và ngàn trái tim hồng. Đơn giản nhưng cực kỳ nổi bật, biểu tượng của sự đáng yêu không lối thoát.",
+    "category": "Cuteness Overload"
+  }
+]

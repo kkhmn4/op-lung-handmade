@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+  --color-gold-50: #fffbf0;
+  --color-gold-100: #fff4c6;
+  --color-gold-200: #ffe688;
+  --color-gold-300: #ffd24a;
+  --color-gold-400: #ffc11a;
+  --color-gold-500: #f9a407;
+  --color-gold-600: #dd8102;
+  --color-gold-700: #b75d06;
+  --color-gold-800: #94460c;
+  --color-gold-900: #7a3b0d;
+
+  --color-silver-100: #f5f5f5;
+  --color-silver-200: #e5e5e5;
+  --color-silver-300: #d4d4d4;
+  --color-silver-400: #a3a3a3;
+  --color-silver-500: #737373;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --font-inter: "Inter", sans-serif;
+  /* Fallback if not set in layout */
+  --font-playfair: "Playfair Display", serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@utility glass {
+  background-color: rgb(255 255 255 / 70%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgb(255 255 255 / 20%);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 8px 10px -6px rgb(0 0 0 / 10%);
+}
+
+@utility glass-dark {
+  background-color: rgb(0 0 0 / 70%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgb(255 255 255 / 10%);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 20%), 0 8px 10px -6px rgb(0 0 0 / 20%);
+  color: white;
+}
+
+@utility text-glow {
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
