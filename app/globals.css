@@ -4,57 +4,83 @@
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-serif: var(--font-playfair), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 
-  --color-gold-50: #fffbf0;
-  --color-gold-100: #fff4c6;
-  --color-gold-200: #ffe688;
-  --color-gold-300: #ffd24a;
-  --color-gold-400: #ffc11a;
-  --color-gold-500: #f9a407;
-  --color-gold-600: #dd8102;
-  --color-gold-700: #b75d06;
-  --color-gold-800: #94460c;
-  --color-gold-900: #7a3b0d;
+  /* Luxury Gold Palette - Based on #D4AF37 (Metallic Gold) */
+  --color-gold-50: #FCF9F0;
+  --color-gold-100: #F7EFD4;
+  --color-gold-200: #EEDD9F;
+  --color-gold-300: #E4CA6A;
+  --color-gold-400: #D4AF37;
+  /* Primary Gold */
+  --color-gold-500: #AA8C2C;
+  --color-gold-600: #887023;
+  --color-gold-700: #66541A;
+  --color-gold-800: #443812;
+  --color-gold-900: #221C09;
 
-  --color-silver-100: #f5f5f5;
-  --color-silver-200: #e5e5e5;
-  --color-silver-300: #d4d4d4;
-  --color-silver-400: #a3a3a3;
-  --color-silver-500: #737373;
+  /* Premium Grayscale */
+  --color-black-rich: #0A0A0A;
+  --color-black-soft: #171717;
+  --color-gray-premium: #262626;
+  --color-white-off: #FAFAFA;
 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #0a0a0a;
+  --background: #FAFAFA;
+  --foreground: #0A0A0A;
   --font-inter: "Inter", sans-serif;
-  /* Fallback if not set in layout */
   --font-playfair: "Playfair Display", serif;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0A0A0A;
+    --foreground: #FAFAFA;
   }
 }
 
+/* Premium Utilities */
 @utility glass {
-  background-color: rgb(255 255 255 / 70%);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgb(255 255 255 / 20%);
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 8px 10px -6px rgb(0 0 0 / 10%);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
 }
 
 @utility glass-dark {
-  background-color: rgb(0 0 0 / 70%);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgb(255 255 255 / 10%);
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 20%), 0 8px 10px -6px rgb(0 0 0 / 20%);
+  background-color: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
   color: white;
 }
 
 @utility text-glow {
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  text-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+@utility border-gold-gradient {
+  border-image: linear-gradient(to right, #F7EFD4, #D4AF37, #F7EFD4) 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AA8C2C;
 }
