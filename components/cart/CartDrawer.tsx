@@ -20,7 +20,7 @@ export default function CartDrawer() {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         onClick={toggleCart}
-                        className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50"
+                        className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50"
                     />
 
                     {/* Drawer */}
@@ -29,19 +29,19 @@ export default function CartDrawer() {
                         animate={{ x: 0 }}
                         exit={{ x: '100%' }}
                         transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-                        className="fixed top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl z-50 flex flex-col border-l border-gold-100"
+                        className="fixed top-0 right-0 h-full w-full max-w-md bg-[#0a0a0a] shadow-2xl z-50 flex flex-col border-l border-white/10"
                     >
                         {/* Header */}
-                        <div className="p-6 border-b border-gray-100 flex items-center justify-between bg-white">
-                            <h2 className="font-serif text-2xl font-bold flex items-center">
-                                <span className="text-gold-500 mr-2">✦</span> Your Bag
+                        <div className="p-6 border-b border-white/10 flex items-center justify-between bg-[#0a0a0a]">
+                            <h2 className="font-serif text-2xl font-bold flex items-center text-white">
+                                <span className="text-gold-500 mr-2">✦</span> Your Collection
                             </h2>
                             <button
                                 onClick={toggleCart}
-                                className="p-2 hover:bg-gray-50 rounded-full transition-colors group"
+                                className="p-2 hover:bg-white/5 rounded-full transition-colors group"
                                 aria-label="Close cart"
                             >
-                                <X className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
+                                <X className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors" />
                             </button>
                         </div>
 
@@ -49,19 +49,19 @@ export default function CartDrawer() {
                         <div className="flex-1 overflow-y-auto p-6 space-y-6">
                             {items.length === 0 ? (
                                 <div className="h-full flex flex-col items-center justify-center text-center p-8 text-gray-500">
-                                    <div className="w-20 h-20 bg-gray-50 rounded-full flex items-center justify-center mb-6">
-                                        <ShoppingBag className="w-8 h-8 text-gray-300" />
+                                    <div className="w-20 h-20 bg-white/5 rounded-full flex items-center justify-center mb-6">
+                                        <ShoppingBag className="w-8 h-8 text-gray-600" />
                                     </div>
-                                    <p className="font-serif text-xl text-gray-900 mb-2">Giỏ hàng trống</p>
-                                    <p className="text-sm font-light">Hãy thêm chút lấp lánh vào bộ sưu tập của bạn.</p>
-                                    <button onClick={toggleCart} className="mt-8 text-gold-600 hover:text-gold-700 font-bold uppercase tracking-widest text-xs border-b border-gold-200 pb-1">
+                                    <p className="font-serif text-xl text-white mb-2">Giỏ hàng trống</p>
+                                    <p className="text-sm font-light text-gray-400">Hãy thêm chút lấp lánh vào bộ sưu tập của bạn.</p>
+                                    <button onClick={toggleCart} className="mt-8 text-gold-500 hover:text-gold-400 font-bold uppercase tracking-widest text-xs border-b border-gold-500/30 pb-1 hover:border-gold-400 transition-all">
                                         Tiếp Tục Mua Sắm
                                     </button>
                                 </div>
                             ) : (
                                 items.map((item) => (
-                                    <div key={item.id} className="flex gap-4">
-                                        <div className="relative w-24 h-32 flex-shrink-0 bg-gray-50 rounded-sm overflow-hidden border border-gray-100">
+                                    <div key={item.id} className="flex gap-4 group">
+                                        <div className="relative w-24 h-32 flex-shrink-0 bg-white/5 rounded-sm overflow-hidden border border-white/10 group-hover:border-gold-500/30 transition-colors">
                                             <Image
                                                 src={item.image}
                                                 alt={item.name}
@@ -72,39 +72,39 @@ export default function CartDrawer() {
                                         <div className="flex-1 flex flex-col justify-between py-1">
                                             <div>
                                                 <div className="flex justify-between items-start">
-                                                    <h3 className="font-serif text-lg font-medium text-gray-900 line-clamp-2 leading-tight mb-1">
-                                                        <Link href={`/product/${item.id}`} onClick={toggleCart} className="hover:text-gold-600 transition-colors">
+                                                    <h3 className="font-serif text-lg font-medium text-white line-clamp-2 leading-tight mb-1">
+                                                        <Link href={`/product/${item.id}`} onClick={toggleCart} className="hover:text-gold-400 transition-colors">
                                                             {item.name}
                                                         </Link>
                                                     </h3>
                                                     <button
                                                         onClick={() => removeItem(item.id)}
-                                                        className="text-gray-300 hover:text-red-500 transition-colors -mr-2 p-2"
+                                                        className="text-gray-500 hover:text-red-500 transition-colors -mr-2 p-2"
                                                     >
                                                         <Trash2 className="w-4 h-4" />
                                                     </button>
                                                 </div>
-                                                <p className="text-sm text-gray-500 bg-gray-50 inline-block px-2 py-0.5 rounded text-[10px] uppercase tracking-wider">{item.category}</p>
+                                                <p className="text-xs text-gold-500/80 uppercase tracking-wider mb-2">{item.category}</p>
                                             </div>
 
                                             <div className="flex items-center justify-between mt-3">
-                                                <div className="flex items-center border border-gray-200 rounded-full h-8">
+                                                <div className="flex items-center border border-white/10 rounded-full h-8 bg-white/5">
                                                     <button
                                                         onClick={() => updateQuantity(item.id, -1)}
-                                                        className="w-8 h-full flex items-center justify-center hover:text-gold-600 disabled:opacity-30 transition-colors"
+                                                        className="w-8 h-full flex items-center justify-center text-gray-400 hover:text-white disabled:opacity-30 transition-colors"
                                                         disabled={item.quantity <= 1}
                                                     >
                                                         <Minus className="w-3 h-3" />
                                                     </button>
-                                                    <span className="w-6 text-center text-xs font-semibold">{item.quantity}</span>
+                                                    <span className="w-6 text-center text-xs font-semibold text-white">{item.quantity}</span>
                                                     <button
                                                         onClick={() => updateQuantity(item.id, 1)}
-                                                        className="w-8 h-full flex items-center justify-center hover:text-gold-600 transition-colors"
+                                                        className="w-8 h-full flex items-center justify-center text-gray-400 hover:text-white transition-colors"
                                                     >
                                                         <Plus className="w-3 h-3" />
                                                     </button>
                                                 </div>
-                                                <p className="font-bold text-gray-900">${(item.price * item.quantity).toFixed(2)}</p>
+                                                <p className="font-bold text-gold-400">${(item.price * item.quantity).toFixed(2)}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -114,15 +114,15 @@ export default function CartDrawer() {
 
                         {/* Footer */}
                         {items.length > 0 && (
-                            <div className="p-6 bg-gray-50 border-t border-gray-100">
+                            <div className="p-6 bg-[#0f0f0f] border-t border-white/10">
                                 <div className="flex justify-between items-end mb-6">
                                     <span className="text-xs font-bold uppercase tracking-widest text-gray-500">Tạm Tính</span>
-                                    <span className="font-serif text-2xl font-bold text-gray-900">${cartTotal.toFixed(2)}</span>
+                                    <span className="font-serif text-2xl font-bold text-white">${cartTotal.toFixed(2)}</span>
                                 </div>
-                                <Link href="/checkout" onClick={toggleCart} className="w-full bg-black text-white py-4 font-bold hover:bg-gold-500 transition-all uppercase tracking-[0.2em] text-xs flex items-center justify-center gap-3">
-                                    Thanh Toán <span className="text-gold-500">→</span>
+                                <Link href="/checkout" onClick={toggleCart} className="block w-full bg-gold-500 text-black py-4 font-bold hover:bg-white hover:text-black transition-all uppercase tracking-[0.2em] text-xs text-center shadow-[0_0_15px_rgba(212,175,55,0.3)] hover:shadow-none">
+                                    Thanh Toán Ngay
                                 </Link>
-                                <p className="text-center text-[10px] text-gray-400 mt-4 uppercase tracking-wider">
+                                <p className="text-center text-[10px] text-gray-500 mt-4 uppercase tracking-wider">
                                     Miễn phí vận chuyển cho đơn hàng &gt; $500
                                 </p>
                             </div>
